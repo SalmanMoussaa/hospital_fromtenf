@@ -31,7 +31,7 @@
 
     <form onsubmit="return false">
         <div class="registerForm" id="registerPopup">
-            <img class="xclose" onclick="closeForm()" src="images/x-close.png">
+            <img class="xclose" onclick="closeForm()" src="x-close.png">
             <h2>Register</h2>
             <div class="choose-type">
                 <button id="patient-signup" class="neutral highlighted" type="button">I'm a patient</button>
@@ -71,8 +71,8 @@
             </div>
             <input id="confirmPassword" type="password" placeholder="Confirm Password">
             <div class="choose-gender">
-                <button class="neutral highlighted" type="button" id="male"><img src="images/male.png">Male</button>
-                <button class="neutral" type="button" id="female"><img src="images/female.png">Female</button>
+                <button class="neutral highlighted" type="button" id="male">Male</button>
+                <button class="neutral" type="button" id="female">Female</button>
             </div>
             <input id="dob" placeholder="Date of Birth (DD/MM/YY)" name="dob">
             <div class="errormessage" id="errormessage"></div>
@@ -83,7 +83,7 @@
 
     <form onsubmit="return false">
         <div class="registerForm" id="loginPopup">
-            <img class="xclose" onclick="closeForm()" src="images/x-close.png">
+            <img class="xclose" onclick="closeForm()" src="x-close.png">
             <h2>Login</h2>
             <input id="email-login" placeholder="Email" name="email">
             <input id="password-login" type="password" placeholder="Password" name="password">
@@ -92,6 +92,6 @@
             <span class="noaccount">Don't have an account? <span class="create-one" onclick="openRegister()">Create one</span>.</span>
         </div >
     </form>
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
